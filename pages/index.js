@@ -169,7 +169,7 @@ export default function Example() {
         <div className="mt-2 sm:mt-10 md:mt-10 lg:mt-10">
           <div className="grid">
             <h2 className="text-2xl font-bold tracking-tight text-zinc-200 sm:text-4xl">Projects</h2>
-            <p className="text-zinc-400 text-lg mt-2">Recent personal work & university class projects.</p>
+            <p className="text-zinc-400 text-lg mt-2">Recent personal work & university class projects. Making cool <span><Link href="https://github.com/tpcav" className="underline">stuff</Link></span> until something sticks.</p>
           </div>
           <div className="mt-8 grid max-w-lg gap-10 lg:max-w-none lg:grid-cols-2 scrollable">
             {posts.map((post) => (
