@@ -1,15 +1,16 @@
 // Intro & Social Links Component
 
+import Image from "next/image"
 import Link from "next/link"
 
 export default function Introduction() {
   return (
     <div className="text-center md:fixed lg:fixed justify-center md:text-left lg:text-left md:justify-left lg:justify-left grid grid-cols-1 mb-10">
       <div className="ml-4 mt-10">
-        <img src="../imgs/tomCav.jpg" className="rounded-full w-40 h-30 text-center"/>
+        <Image src="/./imgs/tomCav.jpg" width={100} height={100} className="rounded-full w-40 h-40 text-center"/>
       </div>  
       <div className="block m-4">
-        <h1 className="mt-2 flex text-7xl font-black tracking-tighter text-gray-200">Tom Cav</h1>
+        <h1 className="mt-2 flex text-5xl font-black tracking-tighter text-gray-200">Tom Cav</h1>
         <div class="mt-4 ml-1 flex space-x-2 text-gray-700">
           <p className="text-gray-600">Social Links: </p>
           <Link href="https://github.com/tpcav">
@@ -25,10 +26,10 @@ export default function Introduction() {
         <div className="mt-10 md:mb-10 md:mt-10 lg:mb-10 lg:mt-10 text-center">
           <div className="text-left w-100">
             <div className="inline max-w-2xl text-gray-500 sm:mt-4">
-              <h2 className="text-4xl font-bold tracking-tight text-zinc-300 sm:text-4xl">Learning
-              <span className="bg-blue-300 px-3 ml-2 rounded-full text-gray-800 text-4xl">business</span><br></br>
-              <span className="bg-green-300 px-3 rounded-full text-gray-800 text-4xl">web development</span><br></br>
-              <span className="bg-orange-300 px-3 rounded-full text-gray-800 text-4xl">product design</span><br></br>
+              <h2 className="text-2xl font-bold tracking-tight text-zinc-100 sm:text-2xl">Learning
+              <span className="bg-blue-300 px-3 ml-2 rounded-full text-gray-800 text-2xl">business</span><br></br>
+              <span className="bg-green-300 px-3 rounded-full text-gray-800 text-2xl">web development</span><br></br>
+              <span className="bg-orange-300 px-3 rounded-full text-gray-800 text-2xl">product design</span><br></br>
               at Drexel University.</h2>
             </div>
           </div>
