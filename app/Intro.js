@@ -7,7 +7,7 @@ export default function Introduction() {
   return (
     <div className="text-center md:fixed lg:fixed justify-center md:text-left lg:text-left md:justify-left lg:justify-left grid grid-cols-1 mb-10">
       <div className="ml-4 mt-10">
-        <Image src="/./imgs/tomCav.jpg" width={100} height={100} className="rounded-full w-40 h-40 text-center"/>
+        <Image src="/imgs/tomCav.jpg" width={100} height={100} className="rounded-full w-40 h-40 text-center"/>
       </div>  
       <div className="block m-4">
         <h1 className="mt-2 flex text-5xl font-black tracking-tighter text-gray-200">Tom Cav</h1>
