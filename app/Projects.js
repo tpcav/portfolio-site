@@ -11,7 +11,7 @@ const projects = [
     description:
       'Lock Screen widget for iOS 16+ devices. Generate codes & share them from your lockscreen.',
     imageUrl:
-      '/./imgs/iOSwidgets.jpg',
+      '/imgs/iOSwidgets.jpg',
   },
   {
     title: 'Ordinary Word Game',
@@ -20,7 +20,7 @@ const projects = [
     description:
       'A game I came up with while flipping through a dictionary. Test your knowledge of the alphabet & vocabulary. Think alphabetically.',
     imageUrl:
-      '/./imgs/ordinaryMockup.jpg',
+      '/imgs/ordinaryMockup.jpg',
   },
   {
     title: 'Smart Lamp',
@@ -29,7 +29,7 @@ const projects = [
     description:
       'A lamp and bookcase that I hand crafted from pine wood. Form Studio Class Final. Fall Term 2022.',
     imageUrl:
-      '/./imgs/SMARTlamp.jpg',
+      '/imgs/SMARTlamp.jpg',
   },
   {
     title: "Window's 98 Computer",
@@ -38,7 +38,7 @@ const projects = [
     description:
       'A website for a band called Abbatia. Developed for release of their newest EP titled "Red Room". ',
     imageUrl:
-      '/./imgs/windowsComputer.jpg',
+      '/imgs/windowsComputer.jpg',
   },
   {
     title: "Bedside Clock",
@@ -47,7 +47,7 @@ const projects = [
     description:
       'A digital clock, laser cut & formed from acrylic. Arduino programmed & embedded inside. Maker Workshop Class Final. Fall Term 2021.',
     imageUrl:
-      '/./imgs/clockThumbnail.jpg',
+      '/imgs/clockThumbnail.jpg',
   },
   {
     title: "Storyline",
@@ -56,7 +56,7 @@ const projects = [
     description:
       'A short-story by 25 different people. I started the story with one sentence, then texted the story to 25 people, one after another.',
     imageUrl:
-      '/./imgs/storylineThumbnail.jpg',
+      '/imgs/storylineThumbnail.jpg',
   },
 ]
 
