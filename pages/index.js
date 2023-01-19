@@ -164,7 +164,7 @@ export default function Example() {
             </div>
 
               <div className="text-center">    
-                <Link href="http://youtube.com/">
+                <Link href="mailto:tpc75@drexel.edu">
                   <div className="block border-2 rounded-lg border-white p-2 w-24 mt-10 bg-zinc-800 text-white">Email</div></Link>
               </div>
           </div>
